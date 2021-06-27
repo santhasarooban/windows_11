@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+  overflow: hidden;
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('Segoe UI.ttf');
+}
+.win_play{
+    position: absolute;
+    z-index: 0 !important;
+    background-size: cover;  
+}
+.vdo{
+    z-index: -1;
+}
+#bottom{
+    bottom:0 !important ;
+    width:100% !important;
+    height: 48px;
+    display:flex;
+    background-color: #f3f3f3 !important;
+    position:absolute;
+}
+.taskbar{
+    bottom:0 !important;
+    z-index: 444 !important;
+    margin-left: 37%;
+    width:500px;
+    height:48px;
+    position: absolute !important;
+    display:flex;
+    cursor:pointer;
+}
+.taskright{
+    position: absolute !important;
+    justify-self: flex-end;
+    width:300px;
+    height:48px;
+    margin-left:66%;
+    right:0;
+    bottom: 0 !important;
+}
+/*------*/
+.start{
+    border-radius: 8px;
+}
+#menu{
+    z-index: 800 !important;
+    position: absolute !important;
+    margin-left:33%;
+    margin-top:14.2%;
+    transition:all 0.2s ease;
+    
+}
+p{
+    font-family: 'Segoe UI';
+    font-size:15px;
+
+}
